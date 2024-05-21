@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+.newsletter-main
+{
+ background: #4158E8;
+ width: 80%;
+ margin: auto auto;
+ padding-top: 3em;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7em;
+}
+.newsletter-left
+{
+    color: white;
+    position: relative;
+    left: 5em;
+    bottom: 2em;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 0.75em;
+}
+/* Newsletter Container */
+.newsletter-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 7em;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   gap: 0.2em;
+   position: relative;
+   right: 2em;
+   bottom: 1.4em;
+   width: 26em;
+}
+
+
+
+/* Email Input */
+.newsletter-container input[type="email"] {
+    flex: 1; /* Take up remaining space */
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Subscribe Button */
+.newsletter-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6em;
+    cursor: pointer;
+}
+
+.newsletter-container button:hover {
+    background-color: #0056b3;
+}
