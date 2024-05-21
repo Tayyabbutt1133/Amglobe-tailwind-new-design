@@ -8,7 +8,7 @@ const Sol = () => {
       {/* Solution Outer */}
       <div
         name="Solution-Main"
-        className="flex-col font-Jakarta flex lg:flex-row lg:items-start mt-[29rem] xl:mt-[22rem]"
+        className="flex-col font-Jakarta flex lg:flex-row lg:items-start mt-[25rem] xs:mt-[22rem]"
       >
           {/* Left div-Solution Inner Container */}
           <div name="Solution-left"
