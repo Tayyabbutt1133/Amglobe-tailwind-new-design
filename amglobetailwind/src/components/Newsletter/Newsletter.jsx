@@ -12,14 +12,14 @@ const Newsletter = () => {
         </div>
       </div>
       
-      <div className="flex md:flex-row flex-col items-center bg-white md:rounded-full rounded-md p-2 shadow-md xs:w-[80%] lg:w-auto w-[120%] 2xl:w-[30%]">
+      <div className="flex sm:flex-row flex-col  items-center bg-white sm:rounded-full rounded-md  p-2 shadow-md  lg:w-[50%] sm:w-[80%] w-[110%]  2xl:w-[30%]">
         <CiMail size={30} className="text-gray-400" />
         <input 
           type="email" 
           placeholder="Enter your email address" 
           className="flex-1 p-2 border-none rounded-l-full outline-none"
         />
-        <button className="bg-blue-500 text-white xs:px-4 xs:py-2 w-[80%] py-1 rounded-full hover:bg-blue-700 xs:w-auto">
+        <button className="bg-blue-500 text-white xs:px-4 xs:py-2 xs:w-[80%] w-[100%] rounded-md py-1 sm:rounded-full hover:bg-blue-700 sm:w-auto">
           Subscribe
         </button>
       </div>

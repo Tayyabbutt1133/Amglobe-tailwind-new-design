@@ -12,7 +12,7 @@ const Sol = () => {
       >
           {/* Left div-Solution Inner Container */}
           <div name="Solution-left"
-            className=" text-white  flex gap-6 flex-col sm:px-32 mx-10 sm:mx-0"
+            className=" text-white  flex gap-6 flex-col sm:px-32 mx-4 sm:mx-0 "
           >
             <h1 className="sm:text-3xl font-bold lg:w-[85%] text-2xl 2xl:text-5xl">
               HR Outsourcing &
@@ -26,17 +26,17 @@ const Sol = () => {
               develop a customized solution that meets your specific business
               needs with ease.
             </p>
-            <div name="buttons" className="grid grid-cols-2 gap-6 w-[90%]">
-              <button className="buttonsol xs:text-[0.65em] text-[0.5em] w-[100%] h-14 bg-gray-900 text-white sm:text-[0.8em] font-medium border border-gray-900 rounded transition duration-300 ease-in-out hover:bg-blue-500 2xl:text-lg">
+            <div name="buttons" className="grid grid-cols-2 gap-6 sm:w-[90%] w-[100%] ">
+              <button className="buttonsol xs:text-[0.65em] text-[0.6em] w-[100%] h-14 bg-gray-900 text-white sm:text-[0.8em] font-medium border border-gray-900 rounded transition duration-300 ease-in-out hover:bg-blue-500 2xl:text-lg">
                 Efficient & Cost-Effective
               </button>
-              <button className="buttonsol xs:text-[0.65em] text-[0.5em] w-[100%] h-14 bg-gray-900 text-white sm:text-[0.8em] font-medium border border-gray-900 rounded transition duration-300 ease-in-out hover:bg-blue-500 2xl:text-lg">
+              <button className="buttonsol xs:text-[0.65em] text-[0.6em] w-[100%] h-14 bg-gray-900 text-white sm:text-[0.8em] font-medium border border-gray-900 rounded transition duration-300 ease-in-out hover:bg-blue-500 2xl:text-lg">
                 Experienced & Professional Team
               </button>
-              <button className="buttonsol xs:text-[0.65em] text-[0.5em] w-[100%] h-14 bg-gray-900 text-white sm:text-[0.8em] font-medium border border-gray-900 rounded transition duration-300 ease-in-out hover:bg-blue-500 2xl:text-lg">
+              <button className="buttonsol xs:text-[0.65em] text-[0.6em] w-[100%] h-14 bg-gray-900 text-white sm:text-[0.8em] font-medium border border-gray-900 rounded transition duration-300 ease-in-out hover:bg-blue-500 2xl:text-lg">
                 Streamlined & Customized Solutions
               </button>
-              <button className="buttonsol xs:text-[0.65em] text-[0.5em] w-[100%] h-14 bg-gray-900 text-white sm:text-[0.8em] font-medium border border-gray-900 rounded transition duration-300 ease-in-out hover:bg-blue-500 2xl:text-lg">
+              <button className="buttonsol xs:text-[0.65em] text-[0.6em] w-[100%] h-14 bg-gray-900 text-white sm:text-[0.8em] font-medium border border-gray-900 rounded transition duration-300 ease-in-out hover:bg-blue-500 2xl:text-lg">
                 Comprehensive Suite of Services
               </button>
             </div>

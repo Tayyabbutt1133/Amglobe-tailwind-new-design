@@ -14,7 +14,7 @@ const Services = () => {
   return (
     <>
       {/* services main outer div  */}
-      <div name="Services-Main-container" className=" mt-[50em]">
+      <div name="Services-Main-container" className=" xs:mt-[38em] lg:mt-[40em] mt-[55em]">
         {/* Flower image to position in div with absolute */}
         <img src={greyflower} alt="" className=" relative lg:left-[55em] 2xl:left-[60em] hidden lg:block" />
 
@@ -28,7 +28,7 @@ const Services = () => {
                 className=" lg:w-[80%] lg:mx-32 flex flex-col gap-10 items-center justify-center lg:items-start lg:justify-start w-screen"
               >
                 <h1 className=" text-white sm:text-4xl font-bold 2xl:text-6xl text-3xl">Our Services</h1>
-                <p className=" text-gray-400 lg:w-[70%] 2xl:text-3xl text-center lg:text-start text-sm">
+                <p className=" text-gray-400 lg:w-[70%] 2xl:text-3xl text-center lg:text-start text-sm xs:mx-0 mx-4">
                   Concise talent management solutions that matches with a
                   particular industry, geography, or business requirement.
                 </p>

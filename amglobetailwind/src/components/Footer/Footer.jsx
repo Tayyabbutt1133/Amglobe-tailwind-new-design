@@ -9,7 +9,7 @@ import circle from '../../assets/Images/reserveCircle.svg';
 const Footer = () => {
   return (
     <div className="footermain">
-      <div className="footer-container grid grid-cols-1 sm:grid-cols-3 gap-5 text-center sm:text-start xs:text-sm text-[0.6em]">
+      <div className="footer-container grid grid-cols-1 sm:grid-cols-3 gap-5 text-center sm:text-start xs:text-sm text-[0.9em]">
         <div className="footerinner">
           <ul>
             <li><span className='footer-span'>Sitemap</span></li>
@@ -28,15 +28,15 @@ const Footer = () => {
             <a href=""><li>Twitter</li></a>
           </ul>
         </div>
-        <div className="footerinner">
+        <div className="footerinner xs:w-auto">
           <h1>Contact Details</h1>
           <h2>contact@infinity.com</h2>
           <p>Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22, Charlottesville, CA 45565</p>
-          <div className="social-links-footer flex mt-6 items-center sm:justify-start justify-center">
-            <a href="#"><img src={linkedin} alt=""/></a>
-            <a href="#"><img src={insta}    alt="" /></a>
-            <a href="#"><img src={youtube}  alt="" /></a>
-            <a href="#"><img src={fb}       alt="" /></a>
+          <div className="social-links-footer flex mt-6 items-center sm:justify-start justify-center gap-4">
+            <a href="#"><img src={linkedin} className=' lg:w-10 xs:w-8 w-96' alt=""/></a>
+            <a href="#"><img src={insta}    className=' lg:w-10 xs:w-8 w-96' alt="" /></a>
+            <a href="#"><img src={youtube}  className=' lg:w-10 xs:w-8 w-96' alt="" /></a>
+            <a href="#"><img src={fb}       className=' lg:w-10 xs:w-8 w-96' alt="" /></a>
           </div>
         </div>
       </div>

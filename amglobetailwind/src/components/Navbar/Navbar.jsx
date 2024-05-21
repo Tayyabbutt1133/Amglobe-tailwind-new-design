@@ -46,7 +46,7 @@ const Nav = () => {
 
           {/* Sidebar */}
           {isSidebarOpen && (
-            <div className="lg:hidden fixed inset-y-0 right-0 bg-gray-800 p-4 rounded-lg shadow-lg h-screen w-[40%] top-0 z-50">
+            <div className="lg:hidden fixed inset-y-0 right-0 bg-gray-800 p-4 rounded-lg shadow-lg h-screen sm:w-[45%] xs:w-[60%] top-0 z-50 w-[60%]">
               <div className="flex justify-end mb-4">
                 <FaTimes onClick={() => setIsSidebarOpen(false)} size={30} className="cursor-pointer text-white" />
               </div>
