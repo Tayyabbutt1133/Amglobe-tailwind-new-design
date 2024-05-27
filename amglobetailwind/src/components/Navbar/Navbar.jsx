@@ -74,35 +74,43 @@ const Nav = () => {
                   <a href="#" className="text-lg font-medium py-2">
                     Home
                   </a>
-                  <span className="bg-blue-500"></span>
                 </li>
                 <li className="nav-item hover:text-blue-500 transition">
                   <a href="#" className="text-lg font-medium py-2">
                     Candidates
                   </a>
-                  <span className="bg-pink-500"></span>
                 </li>
                 <li className="nav-item hover:text-blue-500 transition">
                   <a href="#" className="text-lg font-medium py-2">
                     Employers
                   </a>
-                  <span className="bg-blue-500"></span>
                 </li>
                 <li className="nav-item hover:text-blue-500 transition">
                   <a href="#" className="text-lg font-medium py-2">
                     About us
                   </a>
-                  <span className="bg-blue-500"></span>
                 </li>
                 <li className="nav-item hover:text-blue-500 transition">
                   <a href="#" className="text-lg font-medium py-2">
                     Insights
                   </a>
-                  <span className="bg-blue-500"></span>
                 </li>
               </ul>
+              <div className=" text-white flex flex-col justify-center items-center mt-8 gap-4">
+              <button className="button border-2 hover:border-none p-3 hover:text-white hover:bg-[#4158E8] transition text-[1em] w-40">
+              Request Proposal
+            </button>
+            <button className="button border-2 hover:border-none  p-3 hover:text-white hover:bg-[#4158E8] transition text-[1em] w-40">
+              Register Cv
+                </button>
+                </div>
             </div>
           )}
+
+          
+
+
+
 
           {/* Buttons */}
           <div className="hidden lg:flex lg:gap-4 text-white">
