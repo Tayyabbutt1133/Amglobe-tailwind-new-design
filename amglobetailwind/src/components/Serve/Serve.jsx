@@ -4,83 +4,76 @@ import servicesbg from "../../assets/Images/services.svg";
 const Serve = () => {
   return (
     <>
-      {/* Services Main  */}
-          <div name="Services-Main" className="relative sm:top-96 top-28">
-              
-
-
-
-        {/* Services Main bg image  */}
-        <div name="Services-bg" className="lg:w-[36em] 2xl:w-[75em] xs:w-96 w-60">
-          <img className=" grayscale" src={servicesbg} alt="" />
+      {/* Services Main */}
+      <div name="Services-Main" className="relative sm:top-96 top-28">
+        {/* Services Main bg image */}
+        <div
+          name="Services-bg"
+          className="lg:w-[50%] 2xl:w-[75em] w-[90%] sm:block hidden"
+        >
+          <img className="grayscale" src={servicesbg} alt="" />
         </div>
 
-              
-
-
-        {/* Content Div  */}
-        <div name="services-Main-content" className="absolute top-0 lg:w-[80%]  my-44 font-Jakarta lg:ml-32 xs:ml-48 ml-20 flex lg:flex-row flex-col">
-
-                  
-          {/* Services-left-content-box  */}
-          <div name="Services-flexbox-left" className="bg-[#4158E8D9] border-2 border-[#4158E8D9]">
-            {/* <div name="Job-seeker-banner"
-              className="max-w-28 flex items-center justify-center bg-black text-white absolute lg:top-20 top-9 left-7 transform -rotate-12 w-[10em] h-[2em] font-bold"
-            >
-              Job Seeker
-            </div> */}
+        {/* Content Div */}
+        <div
+          name="Banner"
+          className="flex sm:mx-20 mx-4 absolute top-36 lg:flex-row flex-col"
+        >
+          <div
+            name="Banner-left"
+            className="relative text-white bg-[#4158E8D9] xl:w-[50%] lg:py-32 sm:px-16 py-20 px-4"
+          >
             <div
-              name="flexbox-left-content"
-              className="flex flex-col gap-4 lg:p-20 p-8 2xl:p-52"
+              name="Banner-left-content-wrapper"
+              className="flex flex-col gap-8"
             >
-              <h1 className=" text-white text-2xl font-bold">
+              <div
+                name="Job-Seeker-Banner"
+                className="bg-black text-white w-[8em] sm:flex hidden items-center justify-center p-2 absolute lg:top-24 lg:left-4 left-4 top-10 transform -rotate-12"
+              >
+                Job Seeker
+              </div>
+              <h1 className="text-3xl xl:text-4xl font-bold xl:w-[80%]">
                 We help candidates find their perfect job
               </h1>
-              <p className=" text-white text-[0.8em]">
+              <p className="w-[90%]">
                 Concise talent management solutions that matches with a
                 particular industry, geography, or business requirement.
               </p>
-              <button
-                name="flex-left-button"
-                className=" bg-white  text-[0.9em] p-2 font-bold text-[#4158E8D9] sm:w-[50%] w-[70%]  hover:bg-blue-300 hover:text-white "
-              >
+              <button className="bg-white text-[#4158E8D9] max-w-[50%] h-10">
                 Start Applying
               </button>
             </div>
           </div>
-          
-           {/* Services-right-content-box */}
-           <div name="Services-flexbox-left" className="bg-[#4158E8D9]">
-            {/* <div name="Job-seeker-banner"
-                          className="max-w-28 lg:flex items-center justify-center bg-black text-white absolute lg:top-[5.5em]  lg:right-4 transform lg:rotate-12  w-[10em] h-[2em] font-bold hidden"
-            >
-             Companies 
-            </div> */}
-            <div name="flexbox-right-content"
-              className="flex flex-col gap-4  lg:p-20 p-8  2xl:p-52 border-2 border-[#4158E8D9]"
-            >
-              <h1 className=" text-white text-2xl font-bold">
-              We provide staffing
-Solution to our clients
-              </h1>
-              <p className=" text-white text-[0.8em]">
-                Concise talent management solutions that matches with a
-                particular industry, geography, or business requirement.
-              </p>
-              <button
-                name="flex-left-button"
-                className=" bg-white  text-[0.9em] p-2 font-bold text-[#4158E8D9]  sm:w-[50%] w-[70%] hover:bg-blue-300 hover:text-white "
-              >
-                Start Applying
-              </button>
-            </div>
-          </div>
-          
 
+          <div
+            name="Banner-right"
+            className="relative text-white bg-[#4158E8D9] xl:w-[50%] lg:py-32 sm:px-16 py-20 px-4"
+          >
+            <div
+              name="Banner-right-content-wrapper"
+              className="flex flex-col gap-8"
+            >
+              <div
+                name="Companies-Seeker-Banner"
+                className="bg-black text-white w-[8em] sm:flex hidden items-center justify-center p-2 absolute lg:top-[6.5rem] lg:right-32 right-20 top-14 transform rotate-12"
+              >
+                Companies
+              </div>
+              <h1 className="text-3xl xl:text-4xl font-bold xl:w-[90%]">
+                We provide staffing Solution to our clients
+              </h1>
+              <p className="xl:w-[95%]">
+                Concise talent management solutions that matches with a
+                particular industry, geography, or business requirement.
+              </p>
+              <button className="bg-white text-[#4158E8D9] max-w-[50%] h-10">
+                View Services
+              </button>
+            </div>
+          </div>
         </div>
-              
-    
-    </div>
+      </div>
     </>
   );
 };

@@ -14,12 +14,13 @@ const Services = () => {
   return (
     <>
       {/* services main outer div  */}
-      <div name="Services-Main-container" className=" xs:mt-[38em] lg:mt-[40em] mt-[55em]">
+      <div name="Services-Main-container" className=" md:mt-[38em] lg:mt-[40em] sm:mt-[50em] xs:mt-[80em] mt-[85em]">
         {/* Flower image to position in div with absolute */}
+        
         <img src={greyflower} alt="" className=" relative lg:left-[55em] 2xl:left-[60em] hidden lg:block" />
 
         {/* Main flex content container  */}
-        <div name="services-Main-Inner" className="">
+        {/* <div name="services-Main-Inner" className=" gap-0 border-2 border-red-600"> */}
 
           <div name="services-Main-Inner-Wrapper" className=" flex justify-between">
             <div name="services-left-content-box" className="">
@@ -28,7 +29,7 @@ const Services = () => {
                 className=" lg:w-[80%] lg:mx-32 flex flex-col gap-10 items-center justify-center lg:items-start lg:justify-start w-screen"
               >
                 <h1 className=" text-white sm:text-4xl font-bold 2xl:text-6xl text-3xl">Our Services</h1>
-                <p className=" text-gray-400 lg:w-[70%] 2xl:text-3xl text-center lg:text-start text-sm xs:mx-0 mx-4">
+                <p className=" text-gray-400 lg:w-[70%] 2xl:text-3xl text-center lg:text-start text-sm xs:mx-16 lg:mx-0">
                   Concise talent management solutions that matches with a
                   particular industry, geography, or business requirement.
                 </p>
@@ -49,9 +50,12 @@ const Services = () => {
                 className=" w-64 absolute top-12 right-0 2xl:w-96 2xl:top-20"
               />
             </div>
+
+
           </div>
 
-          <div name="servicesMain-content" className="flex flex-col gap-8 lg:p-20 mx-6 mt-10 lg:mt-0">
+          
+          <div name="servicesMain-content" className="flex flex-col gap-8 lg:p-20 mx-6 mt-10 lg:mt-0 ">
             {/* services box container one  */}
             <div name="services-content-one"
               className=" flex   text-white gap-5 lg:flex-row flex-col"
@@ -120,8 +124,9 @@ const Services = () => {
 
           </div>
 
-        </div>
+        {/* </div> */}
         
+
       </div>
     </>
   );

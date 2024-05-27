@@ -9,7 +9,7 @@ const Main = () => {
     // Main 
     <div name="Main-outer" className="h-screen flex items-center justify-center mt-32">
       {/* Main container For image  */}
-      <div name="Main-Container-bg-img" className="bg-cover w-[80%] h-full" style={{ backgroundImage: `url(${mainfront})` }}>
+      <div name="Main-Container-bg-img" className="bg-cover w-[90%] h-full" style={{ backgroundImage: `url(${mainfront})` }}>
         
         {/* Blue background div  */}
         <div

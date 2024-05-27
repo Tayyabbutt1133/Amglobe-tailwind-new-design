@@ -1,3 +1,12 @@
 .border-radius {
     border-radius: 1.7rem;
 }
+/* Add this to your main CSS file */
+.bg-custom-gradient {
+    background: linear-gradient(45deg, #2626260F, #4158E8);
+    width: 315.204px;
+  height: 100px;
+  /* transform: rotate(100.572deg); */
+  flex-shrink: 0;
+}
+  

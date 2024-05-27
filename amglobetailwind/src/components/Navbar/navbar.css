@@ -1,0 +1,22 @@
+/* navbar.css */
+.nav-item {
+  position: relative;
+}
+
+.nav-item span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  top: 18px;
+  height: 2px;
+  background-color: #4158E8;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-item:hover span,
+.nav-item.active span {
+  transform: scaleX(1);
+}

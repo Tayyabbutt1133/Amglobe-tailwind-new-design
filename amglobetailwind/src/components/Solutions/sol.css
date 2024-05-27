@@ -1,0 +1,31 @@
+.GradientOverlay {
+   position: relative;
+}
+
+.GradientOverlay::before {
+   content: "";
+   position: absolute;
+   top: 11.5em;
+   left: 1.4em;
+  transform: rotate(10deg);
+   width: 90%;
+   height: 30%;
+   background: linear-gradient(to bottom, #2626260F, #4158E8, rgba(255, 255, 255, 0.5));
+   opacity: 0.7; /* Adjust opacity as needed */
+   pointer-events: none; /* Ensure the overlay doesn't block interactions */
+   z-index: 1; /* Ensure the overlay appears above the image */
+}
+
+.GradientOverlay img {
+   position: relative;
+   z-index: 0; /* Ensure the image is below the overlay */
+}
+
+@media screen and (min-width:1536px)
+{
+ .GradientOverlay::before
+ {
+   top: 13.7em;
+   left: 8.5em;
+ }  
+}
