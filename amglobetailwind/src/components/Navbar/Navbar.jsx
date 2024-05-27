@@ -19,7 +19,7 @@ const Nav = () => {
           {/* Website logo */}
           <div
             className={`imgback bg-white w-24 h-12 flex items-center justify-center p-1 ${
-              isSidebarOpen ? "hidden" : ""
+              isSidebarOpen ? "" : ""
             }`}
           >
             <img src={weblogo} alt="" className="w-auto h-full" />
