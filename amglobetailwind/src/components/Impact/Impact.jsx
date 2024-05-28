@@ -16,7 +16,7 @@ const Impact = () => {
         </div>
 
               {/* Container two holding stats table  */}
-        <div name="impact-container-two" className="border-2 border-gray-600 bg-[#191919] md:w-[80%] w-[85%] mx-auto  mt-10 p-8 grid md:grid-cols-4 gap-2  rounded-md  2xl:gap-28 xs:grid-cols-2 grid-cols-1 " >
+        <div name="impact-container-two" className="border-2 border-gray-600 bg-[#191919] md:w-[80%] w-[85%] mx-auto  mt-10 p-8 grid md:grid-cols-4 gap-2  rounded-md  2xl:gap-28 xs:grid-cols-2 grid-cols-1 text-center" >
           
           <div className="impactstats space-y-2">
             <h1 className='text-gray-300 font-bold text-3xl'>20+</h1>
