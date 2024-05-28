@@ -6,13 +6,13 @@ import linkedin from '../../assets/Images/linkedin.svg';
 import youtube from '../../assets/Images/Youtube.svg';
 import circle from '../../assets/Images/reserveCircle.svg';
 
-// grid grid-cols-1 sm:grid-cols-3
+
 const Footer = () => {
   return (
-    // <div className="footermain">
+  
 
 
-      <div className="footer-container">
+      <div className="footer-container p-8">
 
         
 
@@ -47,9 +47,9 @@ const Footer = () => {
           </div>
           </div>
           </div>
-         <div className='footer-reserve mx-32'>
+         <div className='footer-reserve md:mx-32 md:w-auto sm:w-[80%] sm:mx-20 w-[100%]'>
         <p className='footer-reserve-text xs:text-sm text-[0.6em]'>© 2024 AM GLOBAL. All rights reserved.</p>
-        <img src={circle} alt="" className='footer-reserve-circle md:block hidden' />
+        <img src={circle} alt="" className='footer-reserve-circle ' />
         </div> 
          
 
@@ -57,7 +57,6 @@ const Footer = () => {
       </div>
 
 
-      // </div>
    
   )
 }
