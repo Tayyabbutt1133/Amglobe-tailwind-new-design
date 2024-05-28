@@ -29,7 +29,7 @@ const Services = () => {
                 className=" lg:w-[80%] lg:mx-32 flex flex-col gap-10 items-center justify-center lg:items-start lg:justify-start w-screen"
               >
                 <h1 className=" text-white sm:text-4xl font-bold 2xl:text-6xl text-3xl">Our Services</h1>
-                <p className=" text-gray-400 lg:w-[70%] 2xl:text-3xl text-center lg:text-start text-sm xs:mx-16 lg:mx-0">
+                <p className=" text-white lg:w-[70%] 2xl:text-3xl text-center lg:text-start text-sm xs:mx-16 lg:mx-0">
                   Concise talent management solutions that matches with a
                   particular industry, geography, or business requirement.
                 </p>
@@ -60,7 +60,7 @@ const Services = () => {
             <div name="services-content-one"
               className=" flex   text-white gap-5 lg:flex-row flex-col"
             >
-              <div name="servicesboxes"  className="bg-[#212121] p-8 border-radius cursor-pointer hover:bg-blue-600 transition duration-300 ease-in-out min-h-96 space-y-8  lg:w-[35%]">
+              <div name="servicesboxes"  className="bg-[#212121] p-8 border-radius cursor-pointer hover:bg-blue-600 transition duration-300 ease-in-out min-h-96 space-y-8  lg:w-[30%]">
                 <img src={serv1} alt="" />
                 <h1 className="text-[1.2em] font-bold">Manpower Supply</h1>
                 <p className="text-sm 2xl:text-xl"> 
@@ -69,12 +69,11 @@ const Services = () => {
                 </p>
               </div>
 
-              <div name="servicesboxes"  className="bg-[#212121]  p-8 border-radius cursor-pointer hover:bg-blue-600 transition duration-300 ease-in-out min-h-96 space-y-8 lg:w-[35%]">
+              <div name="servicesboxes"  className="bg-[#212121]  p-8 border-radius cursor-pointer hover:bg-blue-600 transition duration-300 ease-in-out min-h-96 space-y-8 lg:w-[30%]">
                 <img src={serv2} alt="" />
                 <h1 className="text-[1.2em] font-bold">HR Outsourcing</h1>
                 <p className="text-sm 2xl:text-xl"> 
-                  We provide a comprehensive range of manpower solutions to help
-                  businesses stay staffed and productive.
+                Our team of HR professionals can take on all your HR needs, from payroll to benefits administration.
                 </p>
               </div>
             
@@ -85,38 +84,35 @@ const Services = () => {
 
 
             <div name="services-content-two"
-              className=" flex  text-white gap-4 lg:flex-row flex-col"
+              className=" grid  text-white gap-4 lg:grid-cols-4"
             >
               <div name="servicesboxes"  className="bg-[#212121]  p-8 border-radius cursor-pointer hover:bg-blue-600 transition duration-300 ease-in-out min-h-96 space-y-8">
                 <img src={serv3} alt="" />
                 <h1 className="text-[1.2em] font-bold">Recruitment Services</h1>
                 <p className="text-sm 2xl:text-xl"> 
-                  We provide a comprehensive range of manpower solutions to help
-                  businesses stay staffed and productive.
+                Let our experts help you find the best talent for your open positions to keep your business moving forward.
                 </p>
               </div>
               <div name="servicesboxes"  className="bg-[#212121]  p-8 border-radius cursor-pointer hover:bg-blue-600 transition duration-300 ease-in-out min-h-96 space-y-8">
                 <img src={serv4} alt="" />
                 <h1 className="text-[1.2em] font-bold">PEO Services</h1>
                 <p className="text-sm 2xl:text-xl"> 
-                  We provide a comprehensive range of manpower solutions to help
-                  businesses stay staffed and productive.
+                Our PEO services can help businesses save time and money while reducing compliance risks.
                 </p>
               </div>
               <div name="servicesboxes"  className="bg-[#212121]  p-8 border-radius cursor-pointer hover:bg-blue-600 transition duration-300 ease-in-out min-h-96 space-y-8">
                 <img src={serv5} alt="" />
                 <h1 className="text-[1.2em] font-bold">Customized Solutions</h1>
-                <p className="text-sm 2xl:text-xl"> 
-                  We provide a comprehensive range of manpower solutions to help
-                  businesses stay staffed and productive.
+                <p className="text-sm 2xl:text-xl "> 
+                Our highly efficient & experienced team provides IT Staffing solutions to companies across Gulf countries, India, Pakistan and USA. Our IT Staff Augmentation team has successfully delivered both short-term and long-term solutions as well as project-based deployment and we provide our customers a concise talent management solutions that matches with a particular industry, geography, or business requirement.
+
                 </p>
               </div>
               <div name="servicesboxes"  className="bg-[#212121]  p-8 border-radius cursor-pointer hover:bg-blue-600 transition duration-300 ease-in-out min-h-96 space-y-8">
                 <img src={serv6} alt="" />
                 <h1 className="text-[1.2em] font-bold">Payroll Services</h1>
                 <p className="text-sm 2xl:text-xl"> 
-                  We provide a comprehensive range of manpower solutions to help
-                  businesses stay staffed and productive.
+                Managing payroll, accounting, and all other financial responsibilities in house and at once is time-consuming and prone to errors. We work in partnership with our clients to develop, implement and manage bespoke payroll services. Our services are in line with the WPS and our clients enjoy considerable cost savings and can focus on core activities of the business.
                 </p>
               </div>
             </div>

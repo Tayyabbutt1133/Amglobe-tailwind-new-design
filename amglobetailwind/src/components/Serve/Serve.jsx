@@ -9,7 +9,7 @@ const Serve = () => {
         {/* Services Main bg image */}
         <div
           name="Services-bg"
-          className="lg:w-[50%] 2xl:w-[75em] w-[90%] sm:block hidden"
+          className="lg:w-[50%] 2xl:w-[50em] w-[90%] sm:block hidden"
         >
           <img className="grayscale" src={servicesbg} alt="" />
         </div>
@@ -40,7 +40,7 @@ const Serve = () => {
                 Concise talent management solutions that matches with a
                 particular industry, geography, or business requirement.
               </p>
-              <button className="bg-white text-[#4158E8D9] max-w-[50%] h-10">
+              <button className="bg-white text-[#4158E8D9] max-w-[50%] h-10 font-bold">
                 Start Applying
               </button>
             </div>
@@ -67,7 +67,7 @@ const Serve = () => {
                 Concise talent management solutions that matches with a
                 particular industry, geography, or business requirement.
               </p>
-              <button className="bg-white text-[#4158E8D9] max-w-[50%] h-10">
+              <button className="bg-white text-[#4158E8D9] max-w-[50%] h-10 font-bold">
                 View Services
               </button>
             </div>

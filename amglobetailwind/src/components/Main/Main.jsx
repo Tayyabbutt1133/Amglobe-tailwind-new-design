@@ -38,7 +38,7 @@ const Main = () => {
           </p>
 
           <button className="bg-white text-[#4158E8D9] h-10 w-36 mt-12 flex justify-center items-center font-bold hover:bg-blue-400 hover:text-white transition duration-300">
-            Learn More
+            Learn more
           </button>
           </div> 
 
