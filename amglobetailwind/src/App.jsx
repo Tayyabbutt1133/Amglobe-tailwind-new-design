@@ -20,7 +20,7 @@ function App() {
        <Serve />
       <Services /> 
       <Choose /> 
-      {/* <Industries/>       */}
+      <Industries/>      
       <Impact /> 
       <Newsletter />
       <Footer/>

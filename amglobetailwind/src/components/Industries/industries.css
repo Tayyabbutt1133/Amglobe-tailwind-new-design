@@ -1,0 +1,33 @@
+.rightcontainer-list {
+  width: 100%;
+  gap: 1em;
+  margin-left: auto; /* Push the container to the right */
+  padding: 2em;
+}
+
+.Inner-list {
+   box-sizing: border-box; /* Include padding and border in width */
+  margin-bottom: 10px; /* Ensure spacing at the bottom for wrap */
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid; /* Border styling */
+  text-align: center; /* Center text alignment */
+  font-size: 0.9em; /* Default font size */
+  padding: 1.4em; /* Padding inside each item */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (min-width:768px)
+{
+    .rightcontainer-list {
+        width: 50%;
+      }
+}
+
+
+
+

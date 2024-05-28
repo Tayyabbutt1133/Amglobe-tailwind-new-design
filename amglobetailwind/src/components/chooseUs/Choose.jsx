@@ -15,7 +15,7 @@ const Choose = () => {
                   </div>
               </div>
               <div name="Choose-right-div" className=' h-72 lg:block hidden'>
-                  <img src={house} alt="" className=' xl:h-[34em] h-[40em] relative xl:bottom-28 bottom-20 right-10 grayscale'/>
+                  <img src={house} alt="" className=' xl:h-[34em] h-[44em] relative xl:bottom-28 bottom-36 right-10 grayscale'/>
               </div>
       </div>
       </>
