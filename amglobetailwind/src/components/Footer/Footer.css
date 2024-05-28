@@ -6,12 +6,15 @@
   color: grey;
   position: relative;   
   margin-top: 4em;
-  padding: 8em;
+  /* height: 420px; */
+  background-color: black;
+}
+.footermain
+{
+  background: rgb(12, 12, 12);
+
 }
 
-.footermain {
-  background: rgb(12, 12, 12);
-}
 
 .footerinner ul {
   list-style: none;
@@ -21,13 +24,6 @@
 .footer-reserve {
   background-color: white;
   color: black;
-  border-radius: 12em;
-  width: 80%;
-  margin: 0 auto;
-  padding: 1em;
-  text-align: center;
-  position: relative;
-  top: -4em;
 }
 
 .footer-reserve-text {
@@ -37,9 +33,9 @@
 }
 
 .footer-reserve-circle {
-  position: absolute;
   top: -1em;
   right: -1em;
+  width: 3em;
 }
 
 .footer-span {
