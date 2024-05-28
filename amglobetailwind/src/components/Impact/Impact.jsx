@@ -20,7 +20,7 @@ const Impact = () => {
           
           <div className="impactstats space-y-2">
             <h1 className='text-gray-300 font-bold text-3xl'>20+</h1>
-            <p className=' text-white lg:text-sm sm:text-[0.6em] text-[0.6em] '>Industries</p>
+            <p className=' text-white lg:text-sm sm:text-[0.6em] text-[0.6em]'>Industries</p>
           </div>
 
           <div className="impactstats space-y-2">

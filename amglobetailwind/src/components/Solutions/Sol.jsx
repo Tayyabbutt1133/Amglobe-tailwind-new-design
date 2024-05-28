@@ -9,7 +9,7 @@ const Sol = () => {
       {/* Solution Outer */}
       <div
         name="Solution-Main"
-        className="flex-col font-Jakarta flex lg:flex-row lg:items-start mt-[23rem] xs:mt-[28rem]"
+        className="flex-col font-Jakarta flex lg:flex-row lg:items-start mt-[30rem] xs:mt-[28rem]"
       >
           {/* Left div-Solution Inner Container */}
           <div name="Solution-left"
