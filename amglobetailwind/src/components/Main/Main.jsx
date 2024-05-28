@@ -1,6 +1,6 @@
 
 import React from "react";
-import mainfront from "..//../assets/Images/mainfrontimg.svg";
+import mainfront from "..//../assets/Images/mainbg.svg";
 import flower from "..//../assets/Images/flower.svg";
 import { Fade } from "react-awesome-reveal";
 
