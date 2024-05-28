@@ -17,7 +17,7 @@ function App() {
       <Navbar /> 
       <Main /> 
       <Sol /> 
-       <Serve />
+       {/* <Serve /> */}
       <Services /> 
       <Choose /> 
       <Industries/>      
