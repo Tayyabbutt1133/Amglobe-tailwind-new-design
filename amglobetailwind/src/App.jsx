@@ -23,7 +23,7 @@ function App() {
       <Industries/>      
       <Impact /> 
       <Newsletter />
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }
