@@ -12,7 +12,7 @@ const Newsletter = () => {
         </div>
       </div>
       
-      <div className="flex sm:flex-row flex-col  items-center bg-white sm:rounded-full rounded-md  p-2 shadow-md  lg:w-[50%] sm:w-[80%] w-[110%]  2xl:w-[30%]">
+      <div className="flex sm:flex-row flex-col  items-center bg-white sm:rounded-full rounded-md  p-2 shadow-md  lg:w-[55%] sm:w-[90%] w-[110%]  2xl:w-[30%]">
         <CiMail size={30} className="text-gray-400 ml-2" />
         <input 
           type="email" 
