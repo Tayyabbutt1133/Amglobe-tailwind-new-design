@@ -3,7 +3,7 @@ import { CiMail } from 'react-icons/ci'
 
 const Newsletter = () => {
   return (
-    <div className="bg-[#4158E8] w-[80%] mx-auto mt-28 py-12 px-6 rounded-2xl flex flex-col lg:flex-row items-center justify-between gap-10">
+    <div className="bg-[#4158E8] w-[70%] mx-auto mt-28 py-12 px-6 rounded-2xl flex flex-col lg:flex-row items-center justify-between gap-10">
       <div className="flex gap-4  text-white">
 
         <div>
