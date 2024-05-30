@@ -47,7 +47,7 @@ const Services = () => {
               <img
                 src={servicesImg}
                 alt=""
-                className=" w-64 absolute top-12 right-0 2xl:w-96 2xl:top-20"
+                className="xl:w-64 absolute top-12 right-0 2xl:w-96 2xl:top-20 w-60"
               />
             </div>
 
