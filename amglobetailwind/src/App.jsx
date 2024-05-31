@@ -14,16 +14,16 @@ import Choose from "./components/chooseUs/Choose";
 function App() {
   return (
     <>
-      <Navbar /> 
-      <Main /> 
-      <Sol /> 
+      {/* <Navbar />  */}
+      {/* <Main />  */}
+      {/* <Sol />  */}
        <Serve />
-      <Services /> 
-      <Choose /> 
-      <Industries/>      
-      <Impact /> 
-      <Newsletter />
-      <Footer/>
+      {/* <Services />  */}
+      {/* <Choose />  */}
+      {/* <Industries/>       */}
+      {/* <Impact />  */}
+      {/* <Newsletter /> */}
+      {/* <Footer/> */}
     </>
   );
 }

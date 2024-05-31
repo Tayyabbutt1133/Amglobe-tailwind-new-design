@@ -15,7 +15,7 @@ const Sol = () => {
           <div name="Solution-left"
             className=" text-white  flex gap-6 flex-col sm:px-24 mx-4 sm:mx-0 "
           >
-            <h1 className="sm:text-3xl font-bold lg:w-[85%] text-2xl 2xl:text-5xl">
+            <h1 className="sm:text-3xl font-bold lg:w-[85%] text-2xl 2xl:text-5xl sm:leading-10">
               HR Outsourcing &
               <span className=" bg-[#4158E8]">Manpower</span> Supply{" "}
               <span className=" bg-[#4158E8]">Solutions</span> Diverse

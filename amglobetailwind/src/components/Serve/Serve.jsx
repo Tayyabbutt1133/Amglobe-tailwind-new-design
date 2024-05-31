@@ -29,18 +29,18 @@ const Serve = () => {
             >
               <div
                 name="Job-Seeker-Banner"
-                className="bg-black text-white w-[8em] sm:flex hidden items-center justify-center p-2 absolute lg:top-24 lg:left-4 left-4 top-10 transform -rotate-12"
+                className="bg-black text-white w-[8em] sm:flex hidden items-center justify-center p-2 absolute lg:top-24 top-12 left-4 transform -rotate-12"
               >
                 Job Seeker
               </div>
-              <h1 className="text-3xl xl:text-4xl font-bold xl:w-[80%]">
+              <h1 className="text-3xl xl:text-4xl font-bold ">
                 We help candidates find their perfect job
               </h1>
               <p className="w-[90%]">
                 Concise talent management solutions that matches with a
                 particular industry, geography, or business requirement.
               </p>
-              <button className="bg-white text-[#4158E8D9] max-w-[50%] h-10 font-bold">
+              <button className="bg-white text-[#4158E8D9] max-w-[50%] h-10 font-bold hover:bg-blue-300 hover:text-white">
                 Start Applying
               </button>
             </div>
@@ -54,20 +54,20 @@ const Serve = () => {
               name="Banner-right-content-wrapper"
               className="flex flex-col gap-8"
             >
-              <div
-                name="Companies-Seeker-Banner"
-                className="bg-black text-white w-[8em] sm:flex hidden items-center justify-center p-2 absolute lg:top-[6.5rem] lg:right-32 right-20 top-14 transform rotate-12"
+             <div
+                name="Job-Seeker-Banner"
+                className="bg-black text-white w-[8em]  items-center justify-center p-2 absolute lg:top-[6rem] xl:right-[10rem] transform rotate-12 top-12 right-16  hidden sm:flex"
               >
                 Companies
               </div>
-              <h1 className="text-3xl xl:text-4xl font-bold xl:w-[90%]">
+              <h1 className="text-3xl xl:text-4xl font-bold">
                 We provide staffing Solution to our clients
               </h1>
               <p className="xl:w-[95%]">
                 Concise talent management solutions that matches with a
                 particular industry, geography, or business requirement.
               </p>
-              <button className="bg-white text-[#4158E8D9] max-w-[50%] h-10 font-bold">
+              <button className="bg-white text-[#4158E8D9] max-w-[50%] h-10 font-bold hover:bg-blue-300 hover:text-white">
                 View Services
               </button>
             </div>
