@@ -2,7 +2,7 @@ import React from 'react'
 const Impact = () => {
   return (
       <>
-      <div name="impactMain" className='xl:mt-64 lg:mt-96 sm:mt-[40em] mt-52'>
+      <div name="impactMain" className='xl:mt-96 lg:mt-96 sm:mt-[40em] mt-52'>
         
            {/* Container one holding head, para, and button  */}
         <div className="impact-container-one flex flex-col justify-center items-center gap-6">

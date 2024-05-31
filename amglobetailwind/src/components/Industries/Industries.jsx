@@ -5,40 +5,38 @@ import industriesbg from "../../assets/Images/industries.svg";
 const Industries = () => {
   return (
     <>
-      <div name="industriesMain" className="mt-64 relative">
-        <div
-          name="rightcontainer-box"
-          className="text-white bg-[#4158E8] p-6 2xl:p-16 xs:w-[100%] mx-4 xs:mx-0 xs:rounded-none rounded-2xl"
+      <div name="Industries-main" className=" relative mt-96 xl:mx-0 w-[100%] xl:w-auto">
+        <div name="Industries-serving-content-blue"
+          className=" bg-[#4158E8] flex lg:justify-end xs:mx-12 mx-6 lg:mx-auto rounded-2xl lg:rounded-none"
         >
-          <h1 className="sm:text-2xl font-bold xs:text-xl 2xl:text-5xl flex md:justify-end xl:mx-36 lg:mx-20 md:text-xl lg:text-2xl justify-center W">
-            INDUSTRIES THAT WE ARE SERVING
-          </h1>
-          <div className="rightcontainer-list mt-5 grid lg:grid-cols-3 xs:grid-cols-2">
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Automation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Automation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Automation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Automation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Automation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Automation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Aviation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Aviation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Aviation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Aviation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Aviation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Aviation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Automation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Automation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Automation</div>
-            <div className="Inner-list hover:bg-white hover:text-[#4158E8] transition duration-300 ease-in-out">Automation</div>
+          <div
+            name="Industries-content-wrapper "
+            className="xl:p-16  lg:p-10 p-6  w-[100%] lg:w-auto"
+          >
+            <h1 className=" flex justify-center text-white text-3xl font-bold">INDUSTRIES THAT WE ARE SERVING</h1>
+            <div name="Grid boxes" className="grid-boxes grid xl:grid-cols-3 gap-4 mt-8 lg:grid-cols-2 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1">
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+              <div className="border-2 px-6 py-2 text-sm text-center text-white cursor-pointer hover:bg-blue-950 hover:text-white duration-300 ease-in-out">AUTOMATION</div>
+            </div>
           </div>
         </div>
-
-        <div className="industriesContainer absolute xl:-top-20 lg:-left-16 top-14 -left-28 md:block hidden">
-          <div className="leftcontainter-box mx-28 xl:w-[60%] lg:w-[50%] w-[45%]">
-            <img src={industriesbg} alt="" />
-          </div>
-              </div>
-          
+        <div name="Industries-serving-img" className=" lg:block hidden">
+          <img src={industriesbg} alt="" className="bg-indus absolute xl:-top-32 lg:top-0 top-12 xl:w-[40rem] xl:mx-32 lg:w-[30rem]"/>
+        </div>
       </div>
     </>
   );

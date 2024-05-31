@@ -46,17 +46,17 @@ const Serve = () => {
             </div>
           </div>
 
-          <div
-            name="Banner-right"
+          <div name="Banner-right"
             className="relative text-white bg-[#4158E8D9] xl:w-[50%] lg:py-32 sm:px-16 py-20 px-4"
           >
             <div
               name="Banner-right-content-wrapper"
               className="flex flex-col gap-8"
             >
-             <div
+              <div
+                // transform rotate-12
                 name="Job-Seeker-Banner"
-                className="bg-black text-white w-[8em]  items-center justify-center p-2 absolute lg:top-[6rem] xl:right-[10rem] transform rotate-12 top-12 right-16  hidden sm:flex"
+                className="bg-black text-white w-[8em] sm:flex hidden justify-center absolute lg:right-32 right-10 p-2 lg:top-24 top-12 transform rotate-12"
               >
                 Companies
               </div>
