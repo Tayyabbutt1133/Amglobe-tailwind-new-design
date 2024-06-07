@@ -4,7 +4,20 @@ import mainfront from "..//../assets/Images/mainbg.svg";
 import flower from "..//../assets/Images/flower.svg";
 import { Fade } from "react-awesome-reveal";
 
+import {Cursor, Typewriter, useTypewriter} from 'react-simple-typewriter';
+
 const Main = () => {
+
+  const [text] = useTypewriter({
+    words: ['Outsourcing your HR needs has never been easier!'],
+    loop:{}
+  
+  });
+
+
+
+
+
   return (
     // Main 
     <div name="Main-outer" className="h-screen flex items-center justify-center mt-32">
@@ -20,7 +33,8 @@ const Main = () => {
           {/* Content inside that div  */}
            <div name="Heading" className="absolute -left-16 top-14 md:w-[80%]">
             <h1 className="font-Jakarta sm:text-4xl font-bold text-3xl">
-              Outsourcing your HR needs has never been easier!
+              {text}
+              <Cursor/>
             </h1>
           </div>
 
