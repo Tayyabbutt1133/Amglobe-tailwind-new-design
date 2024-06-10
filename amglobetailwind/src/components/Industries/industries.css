@@ -8,10 +8,10 @@
   );
 }
 
-@media screen and (max-width:1050px)
+@media screen and (max-width:1370px)
 {
   .bg-indus
   {
-    width: 24rem;
+    width: 30rem;
   }
 }

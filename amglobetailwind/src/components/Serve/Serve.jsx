@@ -17,7 +17,7 @@ const Serve = () => {
         {/* Content Div */}
         <div
           name="Banner"
-          className="flex sm:mx-20 mx-4 absolute top-36 lg:flex-row flex-col"
+          className="flex sm:mx-20 md:mx-12 mx-4 absolute top-36 lg:flex-row flex-col  lg:max-w-[90em]"
         >
           <div
             name="Banner-left"
@@ -53,13 +53,13 @@ const Serve = () => {
               name="Banner-right-content-wrapper"
               className="flex flex-col gap-8"
             >
-              <div
-                // transform rotate-12
-                name="Job-Seeker-Banner"
-                className="bg-black text-white w-[8em] sm:flex hidden justify-center absolute lg:right-32 right-10 p-2 lg:top-24 top-12 transform rotate-12"
-              >
-                Companies
-              </div>
+             <div
+  name="Job-Seeker-Banner"
+  className="bg-black text-white w-[8em] sm:flex hidden justify-center absolute left-4 lg:left-auto lg:right-16 p-2 top-[3rem] lg:top-24 transform -rotate-12 lg:rotate-12"
+>
+  Companies
+</div>
+
               <h1 className="text-3xl xl:text-4xl font-bold">
                 We provide staffing Solution to our clients
               </h1>
